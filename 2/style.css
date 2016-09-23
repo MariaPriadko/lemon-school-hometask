@@ -1,0 +1,15 @@
+figcaption {
+	font-size: 1.2em;
+}
+img {
+	border: 4px double magenta;
+	width: 300px;
+}
+p.secondP {
+	color:black;
+	text-align: left;
+	border-left: 5px dashed darkviolet;
+}
+a:hover {
+	text-decoration:none;
+}
