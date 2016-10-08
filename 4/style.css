@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+div {
+	width: 200px;
+	height: 200px;
+	border: 4px solid #f00;
+}
+span {
+	display: block;
+	clear:both;
+}
+.square1, 
+.square2, 
+.square3 {
+	display:inline-block;
+	margin-bottom: 50px;
+}
+.square4, 
+.square5, 
+.square6 {
+	display:inline-block;
+	margin-bottom: 50px;
+}
+.square7, 
+.square8, 
+.square9 {
+	display:inline-block;
+}
+.square1,
+.square4,
+.square7 {
+	float:left;
+}
+.square3,
+.square6,
+.square9 {
+	float:right;
+}
+.square2,
+.square5,
+.square8 {
+	margin: 0 300px;
+}
