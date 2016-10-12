@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.hello {
+	border-top: 4px solid #fa6900;
+	height: 470px;
+	background-color: #69d2e7;
+}
+.hello img{
+	margin-top: 40px;
+	margin-left: 100px; 
+	float: left;
+	position: absolute;
+
+}
+.logo {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16.88px;
+	text-transform: uppercase;
+	display: inline;
+	margin-top: 40px;
+	position: relative;
+}	
+.tagline {
+	font-family: Arial;
+	font-size: 12px;
+	margin-top: 40px;
+}
+.headerhello {
+	font-family: Arial;
+	font-size: 83.29px;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 83px;
+}
+.clinic {
+	font-family: Arial;
+	font-size: 32.23px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+};
+.greyblock {
+	height: 532px;
+	background-color: #f1f1f1;
+}
+.pic1,
+.pic2,
+.pic3 {
+	display: inline-block;
+	/*vertical-align: text-bottom;*/
+}
+.pic1block img {
+	float:left;
+	margin-top: 251px;
+	margin-left: 184px;
+}
+.pic2block img {
+	margin: 251px 174px 0px 174px;
+}
+.pic3block img {
+	float: right;
+	margin-left: 828px;
+	margin-bottom: 51px;
+}
+.block3 {
+	height: 532px;
+	background-color: #fa6900;
+	color: #fff;
+}
+.block3 img {
+	float: right;
+	height: 532px;
+	width: 620px;
+	border-radius: 0.75em/1em 0 0 0.75em/2em;
+}
+h1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: 142px;
+	margin-left: 103px;
+	display: inline-block;
+}
+.p4 {
+	font-family: Arial;
+	font-size: 22px;
+	margin-left: 103px;
+}
+.p1 {
+	font-family: Arial;
+	font-size:16px;
+	margin-left: 103px;
+	margin-top: 58px;
+	margin-bottom:12px;
+}
+.p2,
+.p3 {
+	font-family: Arial;
+	font-size:16px;
+	margin-left: 103px;
+	margin-top: 12px;
+	margin-bottom:12px;
+}
