@@ -2,32 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
+	font-family: Arial;
 }
-.hello {
+.logo {
 	border-top: 4px solid #fa6900;
 	height: 470px;
 	background-color: #69d2e7;
 }
-.hello img{
+.logo img{
 	margin-top: 40px;
 	margin-left: 100px; 
-	float: left;
-	position: absolute;
-
-}
-.logo {
-	font-family: Arial;
-	font-weight: bold;
-	font-size: 16.88px;
-	text-transform: uppercase;
-	display: inline;
-	margin-top: 40px;
-	position: relative;
-}	
-.tagline {
-	font-family: Arial;
-	font-size: 12px;
-	margin-top: 40px;
 }
 .headerhello {
 	font-family: Arial;
@@ -39,22 +23,43 @@
 	margin-top: 83px;
 }
 .clinic {
-	font-family: Arial;
 	font-size: 32.23px;
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-};
+}
 .greyblock {
 	height: 532px;
 	background-color: #f1f1f1;
+	position: relative;
 }
-.pic1,
-.pic2,
-.pic3 {
+ul {
+	margin-left: 182px;
+	margin-right: 182px;
+}
+li {
 	display: inline-block;
-	/*vertical-align: text-bottom;*/
+}
+li img {
+	margin-top: 252px;
+	margin-bottom: 47px;
+}
+.pic1 {
+	margin-right: 85px;
+}
+.pic2 {
+	margin-left: 85px;
+	margin-right: 87px;
+}
+.pic3 {
+	margin-left: 87px;
+	margin-right: 0;
+}
+span {
+	position: absolute;
+	font-size: 24px;
+	width: 100%;
 }
 .pic1block img {
 	float:left;
