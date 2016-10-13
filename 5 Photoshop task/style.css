@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
-	font-family: Arial;
 }
 .logo {
 	border-top: 4px solid #fa6900;
@@ -28,6 +27,7 @@
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: Arial;
 }
 .greyblock {
 	height: 532px;
@@ -40,6 +40,7 @@ ul {
 }
 li {
 	display: inline-block;
+	font-family: Arial;
 }
 li img {
 	margin-top: 252px;
@@ -59,7 +60,6 @@ li img {
 span {
 	position: absolute;
 	font-size: 24px;
-	width: 100%;
 }
 .pic1block img {
 	float:left;
@@ -81,17 +81,13 @@ span {
 }
 .block3 img {
 	float: right;
-	height: 532px;
-	width: 620px;
-	border-radius: 0.75em/1em 0 0 0.75em/2em;
 }
 h1 {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 26px;
-	margin-top: 142px;
-	margin-left: 103px;
-	display: inline-block;
+	padding-top: 142px;
+	padding-left: 103px;
 }
 .p4 {
 	font-family: Arial;
@@ -113,3 +109,25 @@ h1 {
 	margin-top: 12px;
 	margin-bottom:12px;
 }
+.block4 {
+	background-color: #f1f1f1;
+	height: 419px;
+	font-family: Arial;
+	font-size: 16px;
+}
+.left_logo {
+	padding-left: 101px;
+	padding-top: 92px;
+}
+.p5 {
+	margin-top: 91px;
+}
+.p6 {
+	margin-top: 37px;
+}
+
+
+
+
+
+
