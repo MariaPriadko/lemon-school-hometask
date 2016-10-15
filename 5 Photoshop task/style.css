@@ -111,13 +111,17 @@ h1 {
 }
 .block4 {
 	background-color: #f1f1f1;
-	height: 419px;
 	font-family: Arial;
 	font-size: 16px;
+	display: inline-block;
 }
 .left_logo {
 	padding-left: 101px;
 	padding-top: 92px;
+	float: left;
+	width: 50%;
+	padding-right: 88px;
+	padding-bottom: 124px;
 }
 .p5 {
 	margin-top: 91px;
@@ -125,9 +129,27 @@ h1 {
 .p6 {
 	margin-top: 37px;
 }
-
-
-
+.latest_block {
+	float: right;
+	width: 50%;
+	padding-left: 88px;
+}
+.footer {
+	background-color: #69d2e7;
+}
+.tos,
+.copyright {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 14px;
+	color: #fff;
+}
+.tos {
+	margin: 26px 273px 26px 100px;
+}	
+.copyright {
+	margin: 26px 101px 26px 273px;
+}
 
 
 
