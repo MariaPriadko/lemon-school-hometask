@@ -8,9 +8,12 @@
 	height: 470px;
 	background-color: #69d2e7;
 }
-.logo img{
-	margin-top: 40px;
-	margin-left: 100px; 
+.logohover {
+	width: 250px;
+	margin: 40px 150px;
+}
+a:hover img {
+	text-decoration: none;
 }
 .headerhello {
 	font-family: Arial;
@@ -129,20 +132,52 @@ h1 {
 .p6 {
 	margin-top: 37px;
 }
+.h1latest{
+	font-family: Arial;
+	font-size: 26px;
+	font-weight: bold;
+}
+.molecule_1 {
+	margin-top: 55px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.molecule_2 {
+	padding-bottom: 30px;
+}
+.molecule_3 {
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+.p7,
+.p8 {
+	display: inline;
+}
 .latest_block {
-	float: right;
 	width: 50%;
 	padding-left: 88px;
+	padding-top: 91px;
+	display: inline-block;
+}
+.latest_block img {
+	float:left;
+}
+.p7,
+.p8 {
+	display: inline;
 }
 .footer {
 	background-color: #69d2e7;
 }
-.tos,
-.copyright {
-	display: inline-block;
+.footer a {
+	text-decoration: none;
 	font-family: Arial;
 	font-size: 14px;
 	color: #fff;
+}
+.tos,
+.copyright {
+	display: inline-block;
 }
 .tos {
 	margin: 26px 273px 26px 100px;
