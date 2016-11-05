@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style>
+		.wholeblock {
+			border: 2px solid #000;
+			width:400px;
+			box-shadow: inset 5 5 20px rgba();
+		}
+		p {
+			margin: 5px 75px 2.5px 25px;
+			display: inline-block;
+		}
+		input {
+			width: 85%;
+			margin: 2.5px 25px;
+		}
+		.radio1,
+		.radio2 {
+			display: inline-block;
+		}
+		button {
+			margin: 2.5px 25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wholeblock">
+			<p>Ваше имя</p>
+			<form action="GET">
+				<input type="text" name='First name' placeholder='Например, Иванов Иван Иванович'>
+			</form>
+			<form action="GET">
+				<p>Ваш род деятельности</p>
+				<input type="text" name="Activity" placeholder='Например, Выращиваю огурцы'>
+			</form>
+				<p>Согласны ли Вы с условиями?</p>
+			<form action="GET">
+				<div class="radio1">
+					<input type="radio" name='radiogroup' value='yes'>
+					<span>Категорически ДА!</span>
+				</div>
+				<div class="radio2">
+					<input type="radio" name='radiogroup' value='no'>
+					<span>Категорически НЕТ!</span>
+				</div>
+			</form>
+				<button type='submit'>Отправить</button>
+	</div>
+</body>
+</html>

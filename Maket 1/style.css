@@ -40,20 +40,20 @@ a:hover {
 .line1 {
 	color: #fff;
 	font-size: 30px;
-	font-style: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 25px;
 }
 .line2 {
 	color: #fff;
 	font-size: 68px;
-	font-style: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	line-height: 75px;
 }
 .line3 {
 	color: #fff;
 	font-size: 18px;
-	font-style: 'Opensans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 33px;
 }
 .block1 img {
@@ -63,7 +63,7 @@ a:hover {
 	width: 196px;
 	height: 47px;
 	background-color: #cfc91d;
-	font-style: 'Opensans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin: 26px 542px 210px 357px;
 	text-align: center;
