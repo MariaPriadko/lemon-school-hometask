@@ -1,17 +1,19 @@
 .block-services {
  background-color: #f0f0e8;
-}
-block-services span {
-	display: block;
+ position: relative;
+ min-height: 800px;
+ overflow: hidden;
 }
 .srv__text {
 	padding-left: 125px;
 	width: 50%;
+	float: left;
 }
 .srv__header {
 	color: #02918c;
 	font-weight: 900;
 	font-size: 46px;
+	padding-top: 110px
 }
 .srv__header img {
 	display: block;
@@ -52,7 +54,14 @@ block-services span {
 	font-weight: 900;
 	padding-bottom: 20px;
 }
-.srv__text,
-.hands {
-	display: inline-block;
+.hands__image {
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-image: url(images/hands.png);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: absolute;
+ 	margin-top: 20px;
 }
