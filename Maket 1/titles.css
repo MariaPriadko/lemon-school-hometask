@@ -1,0 +1,50 @@
+.titles {
+	padding-top: 40px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+.titles span{
+	display: block;
+	font-size: 11px;
+	padding: 14.5px 60px;
+}
+.title__1,
+.title__2,
+.title__3,
+.title__4 {
+	text-align: center;
+	display: inline-block;
+	line-height: 21px;
+	font-size: 11px;
+	color: #7e8287;
+	width: 290px;
+	height: 251px;
+}
+.title__1 img,
+.title__2 img,
+.title__3 img,
+.title__4 img, a:hover {
+	cursor: pointer;
+}
+.t__1,
+.t__2,
+.t__3,
+.t__4 {
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 23px;
+	padding-top: 14.5px;
+	padding-bottom: 14.5px;
+}
+.title__1,
+.title__2,
+.title__3 {
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+.title__1 img,
+.title__2 img,
+.title__3 img,
+.title__4 img {
+	margin-top: 29px; 
+	margin-bottom: 14.5px;
+}

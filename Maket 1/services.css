@@ -1,0 +1,58 @@
+.block-services {
+ background-color: #f0f0e8;
+}
+block-services span {
+	display: block;
+}
+.srv__text {
+	padding-left: 125px;
+	width: 50%;
+}
+.srv__header {
+	color: #02918c;
+	font-weight: 900;
+	font-size: 46px;
+}
+.srv__header img {
+	display: block;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+.srv__line {
+	margin-bottom: 8px;
+	line-height: 41px;
+}
+.title__5,
+.title__6,
+.title__7,
+.title__8 {
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 57.5px;
+	line-height: 21px;
+	width: 163px;
+	font-size: 11px;
+}
+.title__5 img {
+	margin-bottom: 17px;
+}
+.title__6 img {
+	margin-bottom: 20px;
+}
+.title__7 img {
+	margin-bottom: 22px;
+}
+.title__8 img {
+	margin-bottom: 22px;
+}
+.t__5,
+.t__6,
+.t__7,
+.t__8 {
+	font-weight: 900;
+	padding-bottom: 20px;
+}
+.srv__text,
+.hands {
+	display: inline-block;
+}
